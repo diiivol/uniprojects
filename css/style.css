@@ -1,0 +1,44 @@
+body {
+    padding-top: 70px;
+  }
+  /* menu */
+  .food-item {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding: 15px;
+  }
+  .food-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+  }
+  @media (max-width: 767px) {
+    .food-item {
+      padding: 20px;
+    }
+  }
+  /* o nas */
+  .about-section {
+    padding: 50px 0;
+    border-radius: 7px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  .about-section h2 {
+    margin-bottom: 30px;
+  }
+  .about-section p {
+    color: #6c757d;
+  }
+  .photo-gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
