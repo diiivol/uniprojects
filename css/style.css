@@ -5,7 +5,6 @@ body {
     line-height: 1.5;
     color: #333;
     background-color: #f8f9fa;
-    padding-bottom: 40px;
   }
   /* menu */
   .food-item {
@@ -20,7 +19,6 @@ body {
     object-fit: cover;
   }
   footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
