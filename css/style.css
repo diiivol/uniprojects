@@ -25,7 +25,7 @@ body {
     padding: 20px 0;
     background-color: #333;
     color: white;
-    text-align: center;  
+    text-align: center;
   }
   @media (max-width: 767px) {
     .food-item {
