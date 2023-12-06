@@ -39,7 +39,7 @@
   </nav>
 
   <!-- O nas -->
-  <div class="container pt-3">
+  <div class="container pt-3 text-center">
     <h1 class="display-4 text-center mb-4">O nas</h1>
     <div class="about-section p-2">
       <div class="container">
@@ -51,13 +51,12 @@
     <!-- phtotos -->
     <div class="container my-4">
       <h3 class="text-center mb-4">Galeria</h3>
-      <div class="row photo-gallery">
+      <div class="photo-gallery row justify-content-center"> <!-- Added justify-content-center class -->
         <!-- slide show 3 photos -->
-        <div class="column">
-          <img class="mySlides animate" src="img/food1.jpg" style="width:100%" onclick="plusSlides(1)" class="hover-shadow cursor">
-          <img class="mySlides animate" src="img/food2.jpg" style="width:100%" onclick="plusSlides(1)" class="hover-shadow cursor">
-          <img class="mySlides animate" src="https://via.placeholder.com/300x200" style="width:100%" onclick="plusSlides(1)" class="hover-shadow cursor">
-          
+        <div class="col-md-4 text-center col-xl-4 d-flex justify-content-center">
+          <img class="mySlides" src="img/food1.jpg" onclick="plusSlides(1)" class="hover-shadow">
+          <img class="mySlides" src="img/food2.jpg" onclick="plusSlides(1)" class="hover-shadow">
+          <img class="mySlides" src="img/food3.jpg" onclick="plusSlides(1)" class="hover-shadow">
         </div>
       </div>
     </div>

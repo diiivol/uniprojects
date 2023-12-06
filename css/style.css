@@ -35,27 +35,24 @@ body {
   /* o nas */
   .about-section {
     padding: 50px 0;
-    border-radius: 7px;
-    background-color: #f8f9fa;
     text-align: center;
   }
-  .about-section h2 {
-    margin-bottom: 30px;
-  }
-  .about-section p {
-    color: #6c757d;
-  }
+
   .photo-gallery img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
   }
-
-  .animate {
-    cursor: pointer;
-    transition: transform .2s;
+  .photo-gallery img:hover {
+    opacity: 0.7;
   }
-  
-  .animate:hover {
-    transform: scale(1.05); 
+
+  .mySlides:hover {
+    cursor: pointer;
+  }
+  .hover-shadow {
+    transition: box-shadow .2s;
+  }
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
