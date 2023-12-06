@@ -1,3 +1,4 @@
+
 body {
     padding-top: 70px;
     font-family: 'Roboto', sans-serif;
@@ -22,7 +23,10 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 20px 0;
+    height: 80px;
+    /* text on the center */
+    display: flex;
+    align-items: center;
     background-color: #333;
     color: white;
     text-align: center;
@@ -38,9 +42,12 @@ body {
     text-align: center;
   }
 
+  .o-nas {
+    min-height: calc(100vh - 80px)
+  }
+
   .photo-gallery img {
     width: 100%;
-    height: auto;
     margin-bottom: 20px;
   }
   .photo-gallery img:hover {
@@ -50,6 +57,7 @@ body {
   .mySlides:hover {
     cursor: pointer;
   }
+
   .hover-shadow {
     transition: box-shadow .2s;
   }
