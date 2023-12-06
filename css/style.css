@@ -50,3 +50,12 @@ body {
     height: auto;
     margin-bottom: 20px;
   }
+
+  .animate {
+    cursor: pointer;
+    transition: transform .2s;
+  }
+  
+  .animate:hover {
+    transform: scale(1.05); 
+  }
