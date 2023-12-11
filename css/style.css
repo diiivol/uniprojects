@@ -42,7 +42,7 @@ body {
     text-align: center;
   }
 
-  .o-nas {
+  .menu, .o-nas, .kontakt {
     min-height: calc(100vh - 80px)
   }
 
