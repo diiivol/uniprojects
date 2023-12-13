@@ -45,7 +45,7 @@ body {
     text-align: center;
   }
 
-  .menu, .o-nas, .kontakt {
+  .menu, .o-nas, .kontakt, .thank {
     flex: 1 0 auto;
   }
 
