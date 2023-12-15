@@ -1,13 +1,23 @@
+// Preload
 window.onload = function() {
   document.getElementById('preloader').style.display = 'none';
 };
-var slideIndex = 1;
-showSlides(slideIndex);
+// 
 
+// Alert
+function confirmRedirect() {
+  return confirm('You will be redirected to another site. Continue?');
+}
+// 
+
+// Zmena obrazku 
+var slideIndex = 1;
+if (window.location.pathname == '/about-us.html') {
+  showSlides(slideIndex);
+}
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -18,11 +28,9 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
 }
+// 
 
-function confirmRedirect() {
-  return confirm('You will be redirected to another site. Continue?');
-}
-
+// Accordion
 function toggleText(id) {
   var element = document.getElementById(id);
   if (element.style.display === 'none') {
@@ -36,7 +44,7 @@ function toggleText(id) {
       element.style.opacity = '1';
     }, 0);
     setTimeout(function() {
-      element.style.height = 'auto'; // Set height to auto after transition
+      element.style.height = 'auto';
     }, 300);
   } else {
     element.style.height = element.clientHeight + 'px';
@@ -49,7 +57,8 @@ function toggleText(id) {
     setTimeout(function() {
       element.style.display = 'none';
       element.style.transition = '';
-      element.style.height = 'auto'; // Set height to auto after transition
+      element.style.height = 'auto';
     }, 300);
   }
 }
+// 
