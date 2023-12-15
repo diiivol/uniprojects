@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     }
+    /* TABLICA */
     table {
         width: 100%;
         border-collapse: collapse;
@@ -28,6 +29,7 @@ body {
             width: 100%;
         }
     }
+    
     .hodiny {
     text-align: center;
     padding: 16px;
