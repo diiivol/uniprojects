@@ -19,6 +19,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
 }
 
+function confirmRedirect() {
+  return confirm('You will be redirected to another site. Continue?');
+}
+
 function toggleText(id) {
   var element = document.getElementById(id);
   if (element.style.display === 'none') {
