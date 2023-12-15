@@ -104,13 +104,13 @@ body {
     display: flex;
     flex-wrap: wrap; /* Prevent the buttons from wrapping onto multiple lines */
     justify-content: space-between; /* Distribute the available space between the buttons */
-    margin-bottom: 20px;
 }
 
 .social-button {
     display: inline-block;
     color: white;
     padding: 10px 20px;
+    margin-bottom: 10px;
     text-decoration: none;
     border-radius: 5px;
 }
