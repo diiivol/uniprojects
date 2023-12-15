@@ -26,9 +26,13 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 5px;
   }
   .food-item img:hover {
     cursor: pointer;
+  }
+  .food-item ul {
+    margin-bottom: 0;
   }
 
   
@@ -39,7 +43,7 @@ body {
     /* text on the center */
     display: flex;
     align-items: center;
-    background-color: #333;
+    background-color: #212529;
     color: white;
     text-align: center;
   }
@@ -60,6 +64,7 @@ body {
 
   .photo-gallery img {
     width: 100%;
+    border-radius: 5px;
     transition: opacity 0.8s ease;
   }
   .photo-gallery img:hover {
@@ -95,6 +100,37 @@ body {
     width: 100%;
     position: absolute;
   }
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 634px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+  .twitter {
+    background-color: #1DA1F2;
+  }
+
+  .facebook {
+    background-color: #4267B2;
+  }
+  .instagram {
+    background-color: #E1306C;
+  }
+
+  .linkedin {
+      background-color: #0077B5;
+  }
+
   #preloader {
     position: fixed;
     left: 0;
