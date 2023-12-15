@@ -26,12 +26,12 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  height: 100vh;
-  background-color: black;
-  background-image: url('../img/background-image.jpg');
+  min-height: 100vh;
+  background-image: url('../img/bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 /* *** */
 
